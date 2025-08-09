@@ -1,9 +1,7 @@
+
 import os
-from keep_alive import keep_alive
 import discord
 from discord.ext import commands
-
-keep_alive()
 
 TOKEN = os.getenv('DISCORD_BOT_TOKEN') or "PASTE-YOUR-TOKEN-HERE"
 

@@ -20,7 +20,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-GUILD_ID = 1383804684929728583
+GUILD_ID = 1199399373470179428
 guild = discord.Object(id=GUILD_ID)
 
 class ScamView(discord.ui.View):

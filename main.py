@@ -1,7 +1,9 @@
-
 import os
 import discord
 from discord.ext import commands
+from keep_alive import keep_alive  # Import the keep_alive module
+
+keep_alive()  # Start the webserver to keep the bot alive on Render
 
 TOKEN = os.getenv('DISCORD_BOT_TOKEN') or "PASTE-YOUR-TOKEN-HERE"
 

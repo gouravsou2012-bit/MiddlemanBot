@@ -5,7 +5,7 @@ from keep_alive import keep_alive  # Import the keep_alive module
 
 keep_alive()  # Start the webserver to keep the bot alive on Render
 
-TOKEN = os.getenv('DISCORD_BOT_TOKEN') or "PASTE-YOUR-TOKEN-HERE"
+TOKEN = os.getenv('MTQwMjcwNjU5OTcwNDc5MzIxMw.GH2kdJ.FPfxBNnDN-7aURfyaDLcedSWw9ai1-F2jgYJRo') or "PASTE-YOUR-TOKEN-HERE"
 
 if not TOKEN:
     print("❌ No bot token found! Add it in Replit secrets or paste it directly.")
